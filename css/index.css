@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+}
+
+body {
+  font-family: "Vazir" !important;
+}
+
+.header-animation {
+  animation-name: header1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes header1 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-animation {
+  animation-name: text1;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes text1 {
+  0% {
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.img-animation {
+  animation-name: image1;
+  animation-duration: 1.5s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: backwards;
+}
+
+@keyframes image1 {
+  0% {
+    margin-right: 560px;
+    opacity: 0;
+  }
+
+  25% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.icon-transform:hover {
+  animation-name: icon1;
+  animation-duration: 500ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes icon1 {
+  0% {
+    transform: scale(1) rotateZ(0deg);
+  }
+
+  25% {
+    transform: scale(1.05) rotateZ(-8deg);
+  }
+
+  50% {
+    transform: scale(1.05) rotateZ(0deg);
+  }
+
+  50% {
+    transform: scale(1.05) rotateZ(8deg);
+  }
+
+  0% {
+    transform: scale(1) rotateZ(0deg);
+  }
+}
+
+.icon-animation2:hover {
+  animation-name: icon2;
+  animation-duration: 350ms;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+@keyframes icon2 {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.card-hover {
+  transition: transform 200ms linear 0s;
+}
+
+.card-hover:hover {
+  transform: scale(1.05);
+}
+
+.icon {
+  color: #0d6efd;
+  background-color: #ebeafb;
+  display: inline-flex;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.link-decoration {
+  text-decoration: none !important;
+}
+
+.card-primary {
+  background-color: #1b2a4e;
+  color: white;
+}
+
+.card-primary-color {
+  color: #f6f7f8 !important;
+}
+
+.third-section {
+  background-color: #1b2a4e;
+}
+
+.list-border {
+  height: 30px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.link-hover:hover {
+  color: black !important;
+}
